@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chanoh Park"
+title                    : "Jiadong Guo"
 title_separator          : "-"
-name                     : &name "Chanoh Park"
-description              : &description "personal description"
-url                      : https://copark86.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Jiadong Guo"
+description              : &description "Robotics Software Geek"
+url                      : https://jd-eth.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "copark86/copark86.github.io"
+repository               : "jd-eth/jd-eth.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -78,13 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chanoh Park"
+  name             : "Jiadong Guo"
   avatar           : "profile.png"
-  bio              : "Computer vision and robotics researcher"
+  bio              : "Robotics Software Geek"
   location         : "Brisbane, Australia"
   employer         :
-  googlescholar    : "https://scholar.google.com.au/citations?user=2orHutwAAAAJ&hl=en&authuser=1"
-  email            : "copark86@gmail.com"
+  googlescholar    : 
+  email            : "jiadong.guo@outlook.com"
   uri              : 
   bitbucket        :
   codepen          :
@@ -92,16 +92,16 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "copark86"
+  github           : "jd-eth"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "chanoh-park-54719988/"
+  linkedin         : 
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "19219/c-o-park"
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : #"replacethistwitterhandle"
