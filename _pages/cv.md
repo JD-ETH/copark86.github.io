@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-#Short version [here](http://copark86.github.io/files/CV_Chanoh_Park.pdf)
+
 
 Education
 ======
