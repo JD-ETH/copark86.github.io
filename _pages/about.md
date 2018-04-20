@@ -1,3 +1,5 @@
+
+
 ---
 permalink: /
 title: "About me"
@@ -8,10 +10,14 @@ redirect_from:
   - /about.html
 ---
 
-- 5+ years research experience in computer vision algorithm design, simulation, implementation and evaluation. 
-- Solid computer vision, robotics, embedded system, and optimization background.
-- Hands on experience with probabilistic sensor fusion, SLAM, 2D/3D machine vision, and industrial manipulator.
-- Strong analytical, problem-solving skills. Excellent communication, teamwork and leadership skills.
+*Currently Looking for a job worldwide in robotics startup, starting earlist September 2018* 
 
-Specialties: SLAM, Photogrammetry, Sensor Fusion, Robust Optimization, 2D/3D Machine Vision, FPGA and Embedded system.
+
+- Broad interest in Robotics and finding software/hardware solutions for real world applications 
+- Solid C++11 Programming background under ROS
+- SLAM, classical machine learning, non-linear optimization, state estimation, sensor fusion, computer Vision
+- Embedded System programming, controller modification, simulator setup
+- Experiences working in team in hackathons and competitions.
+
+Specialties: Laser based SLAM
 
