@@ -1,5 +1,3 @@
-
-
 ---
 permalink: /
 title: "About me"
@@ -10,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently Looking for a job worldwide in robotics startup, starting earlist September 2018
+*Currently Looking for a job worldwide in robotics startup, starting earlist September 2018*
 
 
 - Broad interest in Robotics and finding software/hardware solutions for real world applications 
