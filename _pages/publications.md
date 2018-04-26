@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-Click title for more information
+Coming Up Soon
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
