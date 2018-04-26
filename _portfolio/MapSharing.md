@@ -9,4 +9,4 @@ In this master thesis, a framework is under development to efficiently share a p
 
 The project ends August 2019, more information will follow.
 
-![1](http://jd-eth.github.io.github.io/chart.png)
+![1](http://jd-eth.github.io/images/chart.png)
