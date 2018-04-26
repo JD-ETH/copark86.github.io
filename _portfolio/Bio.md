@@ -1,10 +1,10 @@
 ---
-title: "Bio-signal monitoring system"
-excerpt: "<br/><img src='/images/bio_main.png'>"
-date: 2010-01-01
+title: "Laser Based Object Avoidance"
+excerpt: "<br/><img src='/images/Arducopter.png'>"
+date: 2017-02-01
 collection: portfolio
 ---
 
 
-![1](http://copark86.github.io/images/Recent Research Summary-20.png)
+![1](http://jd-eth.github.io/images/Arducopter.png)
 
