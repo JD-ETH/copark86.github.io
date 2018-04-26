@@ -14,8 +14,12 @@ redirect_from:
 - Broad interest in Robotics and finding software/hardware solutions for real world applications 
 - Solid C++11 Programming background under ROS
 - SLAM, classical machine learning, non-linear optimization, state estimation, sensor fusion, computer Vision
+- Working with Ground Vehicle and Aerial Vehicle Platforms
 - Embedded System programming, controller modification, simulator setup
-- Experiences working in team in hackathons and competitions.
+- Experiences working in team in hackathons, competitions and open source projects.
 
-Specialties: Laser based SLAM
+
+If your robotics startup is looking for a motivated software engineer, contact me under jiadong.guo@outlook.com
+
+Specialties: Laser based SLAM, Robot Perceptions 
 
