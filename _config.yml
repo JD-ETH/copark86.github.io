@@ -82,11 +82,11 @@ author:
   avatar           : "profile.jpeg"
   bio              : "Robotics Software Geek"
   location         : "Brisbane, Australia"
-  employer         :
+  employer         : "CSIRO data61"
   googlescholar    : 
   email            : "jiadong.guo@outlook.com"
   uri              : 
-  bitbucket        :
+  bitbucket        : "https://bitbucket.org/jd-guo"
   codepen          :
   dribbble         :
   flickr           :
@@ -97,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : 
+  linkedin         : "https://www.linkedin.com/in/jaedonguo/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -108,7 +108,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/channel/UCZoZrf82zW-e-0yjzcGo20Q"
   wikipedia        :
 
 
