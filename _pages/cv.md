@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+[CV in pdf](https://jd-eth.github.io/files/cv.pdf.)
 
 Education
 ======
@@ -27,9 +28,9 @@ Education
 Research Experience
 ======
 * Data61, CSIRO, Brisbane, Queensland, Australia, Nov 2016 - Present
-  * Advisor: Peyman Moghadam, Alberto Elfes
+  * Advisor: Dr Paulo Borges
   * Master Thesis student (Nov 2017 - Present)
-    * Research of Laser-based Continuous-Time SLAM (Simultaneous Localization and Mapping)=
+    * Research of Laser-based Continuous-Time SLAM (Simultaneous Localization and Mapping)
 
 * Flyability SA, Lausanne, Switzerland, Feb 2017 - Sep 2017
   * Swiss Industrial Inspection Drone Startup 
@@ -41,17 +42,16 @@ Research Experience
 Skills
 ======
 * Programming
-  * Adept in Languages C++, Python, Matlab, ROS, git
-  * Library experience with PCL, CUDA, OpenCV, 
+  * Adept in Languages C++, Python, Matlab, environment ROS, git
+  * Library experience with PCL, CUDA, OpenCV and more 
 * Embedded System
-  * Prior experience with ARM Structure
+  * Prior experience with ARM Structure Single Chip Computer and NVIDIA Jetson
   * Prior experience with ArduPilot flight controller 
 * Other Skills
   * Prior experience with SolidWorks
   
 Other Project   
 ======
-* 
-
+* See  [Portfolio](https://jd-eth.github.io/portfolio/)
 
 
