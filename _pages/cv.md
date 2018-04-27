@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[CV in pdf](https://JD-ETH.github.io/files/CV.pdf.)
+[CV in pdf](https://JD-ETH.github.io/files/CV.pdf)
 
 Education
 ======
