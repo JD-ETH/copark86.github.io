@@ -3,23 +3,27 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-*Currently Looking for a job worldwide in robotics startup, starting earlist September 2018*
+*Currently Looking for a job in field robotics startup, starting earlist January 2019*
 
-
-- Broad interest in Robotics and finding software/hardware solutions for real world applications 
-- Solid C++11 Programming background under ROS
-- SLAM, classical machine learning, non-linear optimization, state estimation, sensor fusion, computer Vision
+My Skill sets
+- Robot Perception
+- Experience in SLAM, Computer Vision, machine learning with LiDAR or camera
 - Working with Ground Vehicle and Aerial Vehicle Platforms
-- Embedded System programming, controller modification, simulator setup
-- Experiences working in team in hackathons, competitions and open source projects.
+- C++11 and Python Programming in ROS
+- GPU and Embedded System programming
+- Team player with experiences in hackathons, competitions and open source projects.
+
+Looking for a startup, that has:
+- skilled supervision
+- motivated employees
+- crazy but flexible schedules
+- utilizing state-of-art technologies
+
 
 
 If your robotics startup is looking for a motivated software engineer, contact me under jiadong.guo@outlook.com
-
-Specialties: Laser based SLAM, Robot Perceptions 
-
