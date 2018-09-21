@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-*Currently Looking for a job in field robotics startup, starting earlist January 2019*
+*Currently Looking for a job in robotics startup, starting earlist January 2019*
 
 My Skill sets
 - Robot Perception
