@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jiadong Guo"
 title_separator          : "-"
 name                     : &name "Jiadong Guo"
-description              : &description "Robotics Software Geek"
+description              : &description "Robotic Perception Engineer"
 url                      : https://jd-eth.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jd-eth/jd-eth.github.io"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -80,12 +80,12 @@ analytics:
 author:
   name             : "Jiadong Guo"
   avatar           : "profile.jpeg"
-  bio              : "Robotics Software Geek"
-  location         : "Brisbane, Australia"
+  bio              : "Robot Perception Engineer"
+  location         : "Brisbane, Australia / Zurich, Switzerland"
   employer         : "CSIRO data61"
-  googlescholar    : 
+  googlescholar    :
   email            : "jiadong.guo@outlook.com"
-  uri              : 
+  uri              :
   bitbucket        : "https://bitbucket.org/jd-guo"
   codepen          :
   dribbble         :
@@ -101,7 +101,7 @@ author:
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : #"replacethistwitterhandle"
