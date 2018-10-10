@@ -1,9 +1,8 @@
 ---
 title: "<i>Local descriptor for robust place recognition using LiDAR intensities</i>"
 collection: publications
-excerpt: "Jiadong Guo, Paulo Borges, Chanoh Park, Abel Gawel. <br> <img src='/images/QCAT+GATOR.png'>"
+excerpt: "Jiadong Guo, Paulo Borges, Chanoh Park, Abel Gawel. submitted ICRA RA-L 2019 <br> <img src='/images/QCAT+GATOR.png'>"
 permalink: /publication/2019_icra_include_intensity
-venue: 'submitted to IEEE robotics and automation letters'
 date: 2018-10-15
 ---
 
