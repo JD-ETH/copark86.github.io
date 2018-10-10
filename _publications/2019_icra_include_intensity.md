@@ -7,6 +7,9 @@ venue: 'submitted to IEEE robotics and automation letters'
 date: 2018-10-15
 ---
 
+We developed a efficient and robust global localization pipeline using only LiDAR. By augmenting the geometric descriptor with intensity return, we can localize vehicle in a large unstructured site (150,000 squared meters) within several seconds.
+
+
 Currently under review
 
 # Demovideo
