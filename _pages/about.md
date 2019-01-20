@@ -16,12 +16,12 @@ My Skill sets
 - Working with Ground Vehicle and Aerial Vehicle Platforms
 - C++11 and Python Programming in ROS
 - GPU and Embedded System programming
-- Team player with experiences in hackathons, competitions and open source projects.
+- Team player with experiences in hackathons.
 
 Looking for a startup, that has:
 - skilled supervision
 - motivated employees
-- crazy but flexible schedules
+- flexible schedules
 - utilizing state-of-art technologies
 
 
