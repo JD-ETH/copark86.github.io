@@ -8,22 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-*Currently Looking for a job in robotics startup, starting earlist January 2019*
+*Robotics Perception Engineer at SevenSense Robotics, Zürich Area*
 
 My Skill sets
-- Robot Perception
-- Experience in SLAM, Computer Vision, machine learning with LiDAR or camera
+- Deep understanding of Robotic Perception topics as SLAM, Computer Vision, machine learning with LiDAR/Camera
 - Working with Ground Vehicle and Aerial Vehicle Platforms
 - C++11 and Python Programming in ROS
+- Optimization, Linear Algebra, Probabilisitc and their usage in robotics 
+- Version Control and Container
 - GPU and Embedded System programming
-- Team player with experiences in hackathons.
+- Team player with great communication skills.
 
-Looking for a startup, that has:
-- skilled supervision
-- motivated employees
-- flexible schedules
-- utilizing state-of-art technologies
-
-
-
-If your robotics startup is looking for a motivated software engineer, contact me under jiadong.guo@outlook.com
