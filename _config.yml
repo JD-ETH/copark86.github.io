@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jiadong Guo"
 title_separator          : "-"
 name                     : &name "Jiadong Guo"
-description              : &description "Robotic Perception Engineer"
+description              : &description "Robotic Engineer"
 url                      : https://jd-eth.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jd-eth/jd-eth.github.io"
@@ -82,7 +82,7 @@ author:
   avatar           : "profile.jpeg"
   bio              : "Robot Perception Engineer"
   location         : "Zurich, Switzerland"
-  employer         : "Wyss Zurich"
+  employer         : "Sevensense Robotics"
   googlescholar    :
   email            : "jiadong.guo@outlook.com"
   uri              :
@@ -92,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jd-eth"
+  github           : "JD-ETH"
   google_plus      :
   keybase          :
   instagram        :
