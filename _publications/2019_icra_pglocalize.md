@@ -1,8 +1,8 @@
 ---
 title: "Robust Photogeometric Localization over Time for Map-Centric Loop Closure"
 collection: publications
-permalink: /publication/2019-icra-pglocalize
-excerpt: "Chanoh Park, Soohwan Kim, Peyman Moghadam, Jiadong Guo, Sridha Sridharan, Clinton Fookes, IEEE Robotics and Automation Letter, 2019."
+permalink: /publication/2018-09-10-loop
+excerpt: "Chanoh Park, Soohwan Kim, Peyman Moghadam, Jiadong Guo, Sridha Sridharan, Clinton Fookes, IEEE Robotics and Automation Letters, 2019.<br> <img src='/images/loop_figure.jpg' style='width: 70%; height: 70%'>"
 date: 2018-09-10
 ---
 
