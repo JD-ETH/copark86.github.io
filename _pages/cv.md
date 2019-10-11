@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[CV in pdf](https://JD-ETH.github.io/files/CV.pdf)
+[CV in pdf](https://JD-ETH.github.io/files/CV_JD.pdf)
 
 Education
 ======
@@ -21,17 +21,18 @@ Education
 
 * Bachelor of Science in Mechanical Engineering
   * RWTH Aachen University (RWTH), Aachen, Germany, Sep 2015
-  * Average grade 1.3/1
+  * Average grade 1.7/1
 
 
-
-
-
-Research Experience
+Experiences
 ======
-* Data61, CSIRO, Brisbane, Queensland, Australia, Nov 2016 - Present
+* Sevensense Robotics, Zurich, Switzerland, Feb 2019 - now
+  * Robotics perception and navigation 
+  * Depth sensor integration 
+  
+* Data61, CSIRO, Brisbane, Queensland, Australia, Nov 2017 - Dev 2018
   * Advisor: Dr Paulo Borges
-  * Master Thesis student (Nov 2017 - Present)
+  * Master Thesis student
     * Research of Laser-based Continuous-Time SLAM (Simultaneous Localization and Mapping)
     * Localization stack for an autonomous ground utility vehicle platform
 
@@ -39,7 +40,6 @@ Research Experience
   * Swiss Industrial Inspection Drone Startup
   * Control Engineer
     * Control Algorithm Design, Sensor Integration, Testing.
-
 
 
 Skills
