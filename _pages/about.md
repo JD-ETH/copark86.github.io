@@ -11,11 +11,13 @@ redirect_from:
 *Robotics Perception Engineer at SevenSense Robotics, Zürich Area*
 
 My Skill sets
-- Deep understanding of Robotic Perception topics as SLAM, Computer Vision, machine learning with LiDAR/Camera
-- Working with Ground Vehicle and Aerial Vehicle Platforms
-- C++11 and Python Programming in ROS
-- Optimization, Linear Algebra, Probabilisitc and their usage in robotics 
-- Version Control and Container
-- GPU and Embedded System programming
-- Team player with great communication skills.
+- In-depth knowledge of Robotic perception, including localization and mapping, and state estimation. Good knowledge of planning and control. 
+- Familiar with Comptuer Vision, SLAM and basic machine learning approaches. 
+- Working with LiDAR, camera, and depth sensors.
+- Working with Ground Vehicle and Aerial Platforms.
+- C++14 and Python Programming, ROS under Linux.
+- Numeric optimization, linear algebra, probabilisity and their application in robotics 
+- Version control, continous integration.
+- GPU, embedded system programming
+- Team player with good communication skills.
 
