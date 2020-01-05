@@ -36,4 +36,8 @@ This homework allows you to conduct an ablation study for different tricks in th
 - Vanilla algorithm does not converge well even if batch size is large enough. 
 - Clipping away previous reward (reward-to-go) helps network converge with less data.
 - Standardizing advantage function improves variance but introduces bias. Practically, this improves stability and prevent the gradient from blowing up. 
+- Adding a value function estimator improves convergence for difficult tasks. 
 
+What's more, the homeworks asks for an investigation of batch size and learning rate:
+- learning rate too low leads to slow convergence, and too high causes divergence.
+- large batch size causes degrading performance, small batch size can cause divergence. 
