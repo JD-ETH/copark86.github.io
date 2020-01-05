@@ -30,4 +30,10 @@ $\nabla_{\theta}J_{\theta} \approx \frac{1}{N} \sum_{i=1}^{N} \sum_{t=0}^{T-1} \
 With the following adaptations:
 - Approximate expectation by samples.
 - Apply causality and only sum up reward in future timesteps.
-- Incorporate value function as a baseline for the reduction of variance. Optimize over advantage instead of reward directly. 
+- Incorporate value function as a baseline for the reduction of variance. The baseline is a seperately learned network (Actor-Critic). Optimize over advantage instead of reward directly. 
+
+This homework allows you to conduct an ablation study for different tricks in the training, with the Gym Cartpole-v0 example. We make the following observations:
+- Vanilla algorithm does not converge well even if batch size is large enough. 
+- Clipping away previous reward (reward-to-go) helps network converge with less data.
+- Standardizing advantage function improves variance but introduces bias. Practically, this improves stability and prevent the gradient from blowing up. 
+
