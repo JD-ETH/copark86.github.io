@@ -25,7 +25,7 @@ Find set of parameters $\theta$ of the policy, such that the expected reward on 
 
 Practically, the following adaptations need to be made for tractable computation and reduction of variance for the expected reward. 
 
-$\nabla_{\theta}J_{\theta} \approx \frac{1}{N} \sum_{i=1}^{N} \sum_{t=0}^{T-1} \nabla_{\theta}log \pi_{\theta}(a_{i,t}|s_{i,t})(\sum_{t'=t}^{T-1}\gamma^{t'-t}r(s_{i,t'}, a_{i, t'}) - V_{\phi}^{\pi}(s_{i,t}))$
+$\nabla_{\theta}J_{\theta} \approx \frac{1}{N} \sum_{i=1}^{N} \sum_{t=0}^{T-1} \nabla_{\theta}log \pi_{\theta}(a_{i,t}\mid s_{i,t})(\sum_{t'=t}^{T-1}\gamma^{t'-t}r(s_{i,t'}, a_{i, t'}) - V_{\phi}^{\pi}(s_{i,t}))$
 
 With the following adaptations:
 - Approximate expectation by samples.
