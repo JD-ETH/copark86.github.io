@@ -18,6 +18,7 @@ To deal with the trajectory distribution discrepancy between training and testin
 ### Homework 2, Policy Gradient. 
 
 Essentially, the idea is the following: 
-$\min_{\theta} E_{\tau~\pi_{\theta}(\tau)} \Delta_{\theta} \log \pi_{\theta}(\tau)r(\tau)$
+
+$\min_{\theta} E_{\pi_{\theta}(\tau)} \nabla_{\theta} \log \pi_{\theta}(\tau)r(\tau)$
 
 Find set of parameters $\theta$ of the policy, such that the expected reward on the given policy(trajectory) is maximized. 
