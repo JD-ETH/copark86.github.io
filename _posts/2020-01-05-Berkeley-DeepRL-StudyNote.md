@@ -41,3 +41,8 @@ This homework allows you to conduct an ablation study for different tricks in th
 What's more, the homeworks asks for an investigation of batch size and learning rate:
 - learning rate too low leads to slow convergence, and too high causes divergence.
 - large batch size causes degrading performance, small batch size can cause divergence. 
+
+Some techniques to speed up the training process:
+- Run multiple gradient descent from multiple actor in one policy update step.
+- Parallelize the policy collection process. 
+- Generalized Advantage estimation can be used to further reduce variance and improve training. 
