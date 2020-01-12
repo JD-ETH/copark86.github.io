@@ -63,9 +63,9 @@ By sampling randomly from a replay buffer, temporal relationships between previo
 allows learning off-policy: having independent actors to sample experience, and learner to update network weights. 
 To reduce variance and improve learning stability, a target network is used to temporarily be frozen. 
 
-Bellman error = $ r_t + \gamma \max_{a_{t+1}} Q^{\ast{\pi}, a_{t+1}}(s_{t+1}) - Q^{\pi}(s_{t}, a_t) $
+Bellman error = $ r_t + \gamma \max_{a_{t+1}} Q^{\pi'}(s_{t+1},a_{t+1}) - Q^{\pi}(s_{t}, a_t) $
 
 Even better, use double-Q learning to reduce overestimation of reward function resulting from $\max$ operation. 
 
-Bellman error = $ r_t + \gamma Q^{\ast{\pi}}(s_{t+1}, \max_{a_{t+1}}Q^{\pi}(s_{t+1},a_{t+1})) - Q^{\pi}(s_{t}, a_t) $
+Bellman error = $ r_t + \gamma Q^{\pi'}(s_{t+1}, \max_{a_{t+1}}Q^{\pi}(s_{t+1},a_{t+1})) - Q^{\pi}(s_{t}, a_t) $
  
