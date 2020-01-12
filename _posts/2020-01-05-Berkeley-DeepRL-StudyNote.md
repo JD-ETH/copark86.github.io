@@ -47,13 +47,14 @@ Some techniques to speed up the training process:
 - Parallelize the policy collection process. 
 - Generalized Advantage estimation can be used to further reduce variance and improve training. 
 
-### Homework 3, Deep Q Learning 
+### Homework 3
+#### Deep Q Learning 
 
 The homework is about solving atari games with Q-learning. 
 
 The Q function is an estimation of return given state and action under current policy. It's value can be iteratively estimated by temporal difference.   
 
-$Q^{\pi}(s_t,a_t) = r_t + \gamma \max_{a_{t+1}} Q^{pi}(s_{t+1}, a_{t+1})$
+$Q^{\pi}(s_t,a_t) = r_t + \gamma \max_{a_{t+1}} Q^{\pi}(s_{t+1}, a_{t+1})$
 
 In a deep learning setup, a neural network is used as a function approximater. 
 The policy is deterministic, choosing the action that maximum estimated return in current state. 
@@ -69,3 +70,27 @@ Even better, use double-Q learning to reduce overestimation of reward function r
 
 Bellman error = $ r_t + \gamma Q^{\pi'}(s_{t+1}, \max_{a_{t+1}}Q^{\pi}(s_{t+1},a_{t+1})) - Q^{\pi}(s_{t}, a_t) $
  
+#### Actor Critic Learning
+Expanding on the policy gradient, previously one could use a function approximater to estimate the advantage, and thus reduce variance at gradient update. In the actor critic setup, instead of estimating advantage directly, the Value function is estimated, termed critic. 
+
+$A^{\pi}(s_t, a_t) = \left( \sum_{t'=t}{T}\gamma^{t'-t}r(s_{t'}, a_{t'}) \right) - V^{\pi}_{\phi}(s_{t})
+
+or equivalently, 
+
+$A^{\pi}(s_t, a_t) = r_t(s_t,a_t) + \gamma V^{\pi}_{\phi}(s_{t+1}) - V^{\pi}_{\phi}(s_{t}) $
+
+The policy(actor) update is now simply: 
+$\nabla_{\theta}J_{\theta} \approx \frac{1}{N} \sum_{i=1}^{N} \sum_{t=0}^{T-1} \nabla_{\theta}log \pi_{\theta}(a_{i,t}\mid s_{i,t})(\sum_{t'=t}^{T-1}A^{\pi}(s_t, a_t))$
+
+To update the critic given a policy, a target value is generated from the reward:
+$y_t = r(s_t, a_t) + \gamma V^{\pi}(s_{t+1})$ 
+Here we encounter the same moving target problem, and needs to be solved by updating target slower than the value function estimator. 
+```
+for i in update_target:
+       for j in update_value_func:
+              update_v_func_approximator()
+       update_target_value()
+```
+This improves convergence of the overall network quite quickly. 
+
+Another common technique is to estimate the Advantage function by adding multi-step return instead of only the current return only. 
