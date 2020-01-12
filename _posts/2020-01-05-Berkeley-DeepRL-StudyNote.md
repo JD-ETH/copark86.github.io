@@ -46,3 +46,26 @@ Some techniques to speed up the training process:
 - Run multiple gradient descent from multiple actor in one policy update step.
 - Parallelize the policy collection process. 
 - Generalized Advantage estimation can be used to further reduce variance and improve training. 
+
+### Homework 3, Deep Q Learning 
+
+The homework is about solving atari games with Q-learning. 
+
+The Q function is an estimation of return given state and action under current policy. It's value can be iteratively estimated by temporal difference.   
+
+$Q^{\pi}(s_t,a_t) = r_t + \gamma \max_{a_{t+1}} Q^{pi}(s_{t+1}, a_{t+1})$
+
+In a deep learning setup, a neural network is used as a function approximater. 
+The policy is deterministic, choosing the action that maximum estimated return in current state. 
+During learning however, scheduled epsilon greedy is used instead for exploration. 
+
+By sampling randomly from a replay buffer, temporal relationships between previous experiences are broke up. This also 
+allows learning off-policy: having independent actors to sample experience, and learner to update network weights. 
+To reduce variance and improve learning stability, a target network is used to temporarily be frozen. 
+
+Bellman error = $ r_t + \gamma \max_{a_{t+1}} Q^{\ast{\pi}, a_{t+1}}(s_{t+1}) - Q^{\pi}(s_{t}, a_t) $
+
+Even better, use double-Q learning to reduce overestimation of reward function resulting from $\max$ operation. 
+
+Bellman error = $ r_t + \gamma Q^{\ast{\pi}}(s_{t+1}, \max_{a_{t+1}}Q^{\pi}(s_{t+1},a_{t+1})) - Q^{\pi}(s_{t}, a_t) $
+ 
