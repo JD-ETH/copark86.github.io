@@ -94,3 +94,17 @@ for i in update_target:
 This improves convergence of the overall network quite quickly. 
 
 Another common technique is to estimate the Advantage function by adding multi-step return instead of only the current return only. 
+
+### Homework 4
+#### Model-based RL 
+Model-based reinforcement learning is implemented in this exercise, where the discrete error dynamics model is approximated by a neural network: 
+$\tilde{s}_{t+1} = s_t + \tilde{f}_{\theta}(s_t, a_t}$
+
+The determinsitic model is learned under a supervised learning setup on following objective:
+$\sum_{s_t,a_t,s_{t+1}} || (s_{t+1}-s_t - f_{\theta}(s_t,a_t)||_2^2$
+
+Final action sequences of length h (horizon) is chosen by minimizing the cost function (maximizing reward):
+$argmin_{random set of A} \sum_t_0^{t_0+h-1}(c(\tilde{s}_t, a_t) $
+
+under the approximated dynamics. 
+
