@@ -73,11 +73,11 @@ Bellman error = $ r_t + \gamma Q^{\pi'}(s_{t+1}, \max_{a_{t+1}}Q^{\pi}(s_{t+1},a
 #### Actor Critic Learning
 Expanding on the policy gradient, previously one could use a function approximater to estimate the advantage, and thus reduce variance at gradient update. In the actor critic setup, instead of estimating advantage directly, the Value function is estimated, termed critic. 
 
-$A^{\pi}(s_t, a_t) = \left( \sum_{t'=t}{T}\gamma^{t'-t}r(s_{t'}, a_{t'}) \right) - V^{\pi}_{\phi}(s_{t})$
+$ A^{\pi}(s_t, a_t) = \left( \sum_{t'=t}{T}\gamma^{t'-t}r(s_{t'}, a_{t'}) \right) - V^{\pi}_ {\phi}(s_{t}) $
 
 or equivalently, 
 
-$A^{\pi}(s_t, a_t) = r_t(s_t,a_t) + \gamma V^{\pi}_{\phi}(s_{t+1}) - V^{\pi}_{\phi}(s_{t}) $
+$ A^{\pi}(s_t, a_t) = r_t(s_t,a_t) + \gamma V^{\pi}_ {\phi}(s_{t+1}) - V^{\pi}_ {\phi}(s_{t}) $
 
 The policy(actor) update is now simply: 
 $\nabla_{\theta}J_{\theta} \approx \frac{1}{N} \sum_{i=1}^{N} \sum_{t=0}^{T-1} \nabla_{\theta}log \pi_{\theta}(a_{i,t}\mid s_{i,t})(\sum_{t'=t}^{T-1}A^{\pi}(s_t, a_t))$
@@ -98,13 +98,13 @@ Another common technique is to estimate the Advantage function by adding multi-s
 ### Homework 4
 #### Model-based RL 
 Model-based reinforcement learning is implemented in this exercise, where the discrete error dynamics model is approximated by a neural network: 
-$\hat{s}_{t+1} = s_t + \hat{f}_{\theta}(s_t, a_t}$
+$\hat{s}_ {t+1} = s_t + \hat{f}_ {\theta}(s_t, a_t)$
 
 The determinsitic model is learned under a supervised learning setup on following objective:
 $\sum_{s_t,a_t,s_{t+1}} || (s_{t+1}-s_t - f_{\theta}(s_t,a_t)||_2^2$
 
 Final action sequences of length h (horizon) is chosen by minimizing the cost function (maximizing reward):
-$argmin_{random set of A} \sum_t_0^{t_0+h-1}(c(\hat{s}_t, a_t)$
+$\underset{A}{argmin} \sum_{t_0}^{t_0+h-1}c(\hat{s}_t, a_t)$
 
 under the approximated dynamics. 
 
