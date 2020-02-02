@@ -108,3 +108,4 @@ $argmin_{random set of A} \sum_t_0^{t_0+h-1}(c(\tilde{s}_t, a_t) $
 
 under the approximated dynamics. 
 
+To further robustify the model against model uncertainties, ensemble methods can be deployed which averages model predictions from multiple networks. 
