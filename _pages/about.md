@@ -8,9 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-*Robotics Perception Engineer at SevenSense Robotics, Zürich Area*
+*Computer Vision Engineer at Oculus, Zürich Area*
 
-**New**: I have updated some information about winning second place at the "Game of drones" competition organized by Microsoft at NeuRIPS 2019. See portfolio section for details. 
 
 My Skill sets
 - In-depth knowledge of Robotic perception, and state estimation. Good knowledge of planning and control. 
