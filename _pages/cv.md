@@ -26,7 +26,11 @@ Education
 
 Experiences
 ======
-* Sevensense Robotics, Zurich, Switzerland, Feb 2019 - now
+
+* Oculus, Zurich, Switzerland, May 2020 - now
+  * Calibration and Computer Vision of future products
+  
+* Sevensense Robotics, Zurich, Switzerland, Feb 2019 - May 2020
   * Robotics perception and navigation 
   * Depth sensor integration 
   
